@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestRunner.Run
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 19.52 s <<< FAILURE! -- in TestRunner.Run
+Login.Successful Login with Valid Credentials -- Time elapsed: 18.88 s <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at StepDefinition.StepDef.page_title_should_be(StepDef.java:122)
+	at ✽.Page Title should be "Dashboard / nopCommerce administration"(file:///C:/AutomationProject2024/BDD%20projects/CucumberFrameWork/./Features/LoginFeature.feature:9)
+

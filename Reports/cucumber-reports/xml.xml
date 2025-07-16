@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="20.566" tests="3" skipped="0" failures="2" errors="0">
+<testcase classname="Login" name="Successful Login with Valid Credentials" time="20.366">
+<system-out><![CDATA[
+Given User launch Chrome browser............................................passed
+When User opens URL "https://admin-demo.nopcommerce.com/login"..............passed
+And User enters Email as "" and Password as ""..............................passed
+And Click on Login..........................................................passed
+Then Page Title should be "Dashboard / nopCommerce administration"..........passed
+When User click on Log out link.............................................passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Successful Login with Valid Credentials DDT - #1.1" time="0.009">
+<failure/>
+<system-out><![CDATA[
+Given User Launch Chrome browser............................................undefined
+When User opens URL "https://admin-demo.nopcommerce.com/login"..............skipped
+And User enters Email as "admin@yourstore.com" and Password as "admin"......skipped
+And Click on Login..........................................................skipped
+Then Page Title should be "Dashboard / nopCommerce administration"..........skipped
+When User click on Log out link.............................................skipped
+And Close browser...........................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Successful Login with Valid Credentials DDT - #1.2" time="0">
+<failure/>
+<system-out><![CDATA[
+Given User Launch Chrome browser............................................undefined
+When User opens URL "https://admin-demo.nopcommerce.com/login"..............skipped
+And User enters Email as "test@yourstore.com" and Password as "admin".......skipped
+And Click on Login..........................................................skipped
+Then Page Title should be "Dashboard / nopCommerce administration"..........skipped
+When User click on Log out link.............................................skipped
+And Close browser...........................................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
